@@ -2,7 +2,7 @@
   "name": "webchat",
   "version": "1.4.34",
   "description": "",
-  "main": "lib/index.js",
+  "main":"dist/webchat.js",
   "scripts": {
     "clean:lib": "rm -rf lib",
     "clean:dist": "rm -rf dist",
