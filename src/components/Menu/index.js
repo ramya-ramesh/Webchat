@@ -86,7 +86,7 @@ class Menu extends Component {
                 className='MenuElement'
                 href={action.payload}
                 rel='noopener noreferrer'
-                target='_blank'
+                target='_self'
               >
                 {action.title}
               </a>

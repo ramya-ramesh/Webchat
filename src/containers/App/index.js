@@ -83,7 +83,10 @@ class App extends Component {
     }
 
     if (preferences.welcomeMessage) {
-      this.props.setFirstMessage(preferences.welcomeMessage)
+      console.log("Printing from the webchat bot")
+      let msg = localStorage.getItem("CAIWelcomeMsg") ? localStorage.getItem("CAIWelcomeMsg") : preferences.welcomeMessage;
+      console.log(msg)
+      this.props.setFirstMessage(msg)
     }
 
     this.props.setCredentials(payload)
